@@ -2,9 +2,11 @@
 With this Jupyter Notebook and the connected scripts data from the Deutscher Wetterdienst (DWD) stations can be visualized. It combines historical and recent data from the available stations from opendata.dwd (https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/monthly/kl/). 
 
 You can not only visualize and filter the locations of the weather stations in germany.
+
 ![Alt text](images/station-location.png)
 
 Also it is possible to calculate averages for Temperature, Rain, ... for the visualized weather stations in the pic above:
+
 ![Alt text](images/station-avg-data.png)
 
 Don't let the code in the Notebook disturb you. The main thing are the two interactive plots.
@@ -16,8 +18,8 @@ Before you begin, ensure you have met the following requirements:
 
 First install the requirements for the code (virtual environment might also be a good idea):
 ```
-git clone 
-cd 
+git clone https://github.com/csRon/dwd_station_vis.git
+cd dwd_station_vis
 pip install -r requirements.txt
 ```
 
@@ -32,7 +34,7 @@ jupyter-notebook DWD_Station_Vis.ipynb
 ```
 
 ## Background
-This project was programmed out of curiosity and to verify media headlines with clear data (most of the headlines can be varified, not all of them). It is quite some years old but I had no time to publish, so please forgive partially bad coding.
+This project was programmed out of curiosity and to verify media headlines with clear data (most of the headlines can be verified, not all of them). It is quite some years old but I had no time to publish, so please forgive partially bad coding.
 
 Please let me know if there is a nice API for such comprehensive weather data. This would make things a lot easier.
 
