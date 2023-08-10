@@ -44,7 +44,7 @@ download(){
 	bash ./../../rename.sh
 
 	# delete all unnecessary html files
-	#find . -name '*.html' | xargs rm
+	find . -name '*.html' | xargs rm
 
 	cd ../..
 }
