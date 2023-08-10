@@ -30,7 +30,7 @@ bash download.sh
 ```
 Then everything should be set up to start your jupyter notebook:
 ```
-jupyter-notebook DWD_Station_Vis.ipynb
+jupyter-notebook dwd_station_vis.ipynb
 ```
 
 ## Background
